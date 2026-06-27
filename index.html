@@ -16,11 +16,65 @@ TODO: Change the background color for each device
   <style>
     body {
       background-color: aquamarine;
+      font-size:2rem;
+    }
+    img{
+      position:inline-block;
+
+    }
+    #shook{
+      color:brown
+    }
+    .divit{
+      height:400px;
+      width:400px;
+      background-color:blanchedalmond;
+    }
+    @media(min-width: 319px) and (max-width: 490px){
+      body{
+        background-color:lightsalmon;
+        font-size:.5rem;
+        .divit{
+          height:200px;
+          width:200px;
+
+        }
+        .babygirl{
+          width:45%;
+          float:left;
+        }
+        .puppy{
+          width:45%;
+          float:right:
+          
+        }
+      }
+
+    }
+    @media(min-width: 491px) and (max-width:1200px){
+      body{
+        background-color:powderblue;
+        font-size:1rem;
+        .divit{
+          height:200px;
+          width:200px;
+        }
+      }
     }
   </style>
 </head>
 
 <body>
+  <h1>
+    <p class="memo">
+      Whats <span id="shook">shaking</span> Earthlings!
+    </p>
+  </h1>
+  <div class="divit">
+  <img class="babygirl" src="./pictures/sugar1.jpg" width=300px">
+  <img class="puppy" src="./pictures/sugar baby.jpg" width="300px">
 </body>
+  </div>
+  
 
 </html>
