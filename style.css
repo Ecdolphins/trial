@@ -6,7 +6,8 @@ html{
       font-size:2rem;
 }
 .hello{
-      padding:20px;
+      position:inline-block;
+      padding:0px;
       border: solid black 5px;
       float:left;
 } 
