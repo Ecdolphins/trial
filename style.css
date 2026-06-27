@@ -1,0 +1,37 @@
+body{
+      background-color:yellowgreen
+}
+
+.hello{
+      padding:20px;
+      border: solid black 5px;
+      float:left;
+} 
+      
+     p{
+       
+      
+     } 
+      
+
+h2{
+      text-align: center;
+}
+#contact{
+      color:blueviolet
+}
+@media (max-width: 419px) {
+      body{
+            background-color:aqua
+            
+      }
+      p{
+            font: size 0.4em;
+      }
+.hello{
+      width:50%;
+}
+html{
+      font-size:small
+}
+}
