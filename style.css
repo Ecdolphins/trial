@@ -1,17 +1,17 @@
 body{
       background-color:yellowgreen
 }
+html{
 
+      font-size:2rem;
+}
 .hello{
       padding:20px;
       border: solid black 5px;
       float:left;
 } 
       
-     p{
-       
-      
-     } 
+     
       
 
 h2{
@@ -26,12 +26,12 @@ h2{
             
       }
       p{
-            font: size 0.4em;
+            font-size: 0.8rem;
       }
 .hello{
-      width:50%;
+      width:70%;
 }
 html{
-      font-size:small
+      font-size:1rem;
 }
 }
