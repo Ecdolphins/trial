@@ -23,7 +23,7 @@ h2{
 #contact{
       color:blueviolet
 }
-@media (max-width: 400px) {
+@media (max-width: 310px) {
       body{
             background-color:aqua
             
