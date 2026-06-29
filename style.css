@@ -1,5 +1,5 @@
 body{
-      background-color:yellowgreen
+      background-color:aqua;
 }
 html{
 
@@ -9,23 +9,26 @@ html{
       
       
       
-      border: 5px solid black ;
+      border: 10px solid black ;
       size-adjust: 60%;
       float:left;
 } 
       
-   
+   #one{
+      
+
+   }
       
 
 h2{
       text-align: center;
 }
 #contact{
-      color:blueviolet
+      color:blueviolet;
 }
-@media (max-width: 700px) {
+@media (max-width: 390px) {
       body{
-            background-color:aqua
+            background-color:aqua;
             
       }
      img{
