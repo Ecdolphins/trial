@@ -6,13 +6,15 @@ html{
       font-size:2rem;
 }
 .hello{
-      position:inline-block;
-      padding:0px;
-      border: solid black 5px;
+      
+      
+      
+      border: 5px solid black ;
+      size-adjust: 60%;
       float:left;
 } 
       
-     
+   
       
 
 h2{
@@ -21,12 +23,14 @@ h2{
 #contact{
       color:blueviolet
 }
-@media (max-width: 419px) {
+@media (max-width: 400px) {
       body{
             background-color:aqua
             
       }
-     
+     img{
+      size:50%;
+     }
 html{
       font-size:1rem;
 }
